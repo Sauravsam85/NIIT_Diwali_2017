@@ -10,12 +10,15 @@ body,h1,h2{font-family: "Raleway", sans-serif}
 body, html {height: 100%}
 p {line-height: 2}
 .bgimg, .bgimg2 {
-    min-height: 100%;
-    background-position: center;
-    background-size: cover;
+    width: 100%;
+	background-color: purple;
+	background-position: center;
 }
-.bgimg {background-image: url("images/1.gif")}
-.bgimg2 {background-image: url("images/img_3.jpg")}
+.bgimg {background-image: url("images/1.gif");
+	height: 540px;
+	background-size: cover;}
+.bgimg2 {background-image: url("images/img_3.JPG");
+	height: 450px;}
 
                    marquee#PAUSER {
                     
@@ -62,12 +65,12 @@ As you celebrate this holy occasion, the most loving thoughts and wishes are for
 	</p>
 	<p class="w3-text-red"><b><i>Have A Wonderful Diwali.. दिवाली मुबारक हो !</i></b>
 	</p><br>
-    <p class="w3-center"><a href="#diwali" class="w3-button w3-black w3-round w3-padding-large w3-large">Event Details</a></p>
+    <p class="w3-center" id="diwali"><a href="#diwali" class="w3-button w3-black w3-round w3-padding-large w3-large">Event Details</a></p>
   </div>
 </div>
 
 <!-- Background photo -->
-<div class="w3-display-container w3-wide bgimg2">
+<div class="w3-display-container bgimg2">
   <div class="w3-display-middle w3-text-yellow w3-center">
     <!--<h1 class="w3-jumbo">You Are Invited</h1><br>
     <h2 class="w3-spin">Of course..</h2>-->
@@ -75,7 +78,7 @@ As you celebrate this holy occasion, the most loving thoughts and wishes are for
 </div>
 
 <!-- Event information -->
-<div class="w3-container w3-padding-64 w3-pale-red w3-center" id="diwali">
+<div class="w3-container w3-padding-64 w3-pale-red w3-center">
   <div class="w3-content">
     <h1 class="w3-text-purple"><b>Let’s Celebrate Together at</b></h1>
     <img class="w3-round-large" src="images/loc.gif" style="width:70%;margin:64px 0">
@@ -103,7 +106,7 @@ As you celebrate this holy occasion, the most loving thoughts and wishes are for
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-16">
- <marquee id="PAUSER" class="GeneratedMarquee" direction="left" scrollamount="6"> Please join us for a fun filled evening full of surprises and FREE BOOOOOZE!! </marquee>
+ <marquee id="PAUSER" class="GeneratedMarquee" direction="left" scrollamount="6"> Please join us with your family for a fun filled evening full of surprises!! </marquee>
 </footer>
 <div class="w3-hide-small" style="margin-bottom:32px"> </div>
 
